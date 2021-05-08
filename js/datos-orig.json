@@ -1,0 +1,245 @@
+[
+    {
+        "id": 1,
+        "img": "images/imgGrande/times-square.jpg",
+        "imgGrande": "images/imgGrande/square.jpg",
+        "h4": "Times Square",
+        "titulo": "Times Square",
+        "bajada": "Arrancamos desde 42st Station y pasemos por el Theatre District",
+        "price": 1000,
+        "barrio": "Manhattan"
+    },
+    {
+        "id": 2,
+        "img": "images/imgGrande/bridge.jpg",
+        "imgGrande": "images/imgGrande/dumbo.jpg",
+        "h4": "Brooklyn Bridge",
+        "titulo": "Brooklyn Bridge",
+        "bajada": "Cruzamos el puente desde Manhattan hacia Brooklyn",
+        "price": 2000,
+        "barrio": "Manhattan"
+    },
+    {
+        "id": 3,
+        "img": "images/imgGrande/subway.jpeg",
+        "imgGrande": "img/subway.jpeg",
+        "h4": "NYC Subway",
+        "titulo": "Subway Ride",
+        "bajada": "Recorrido por las mejores estaciones de la ciudad",
+        "price": 3000,
+        "barrio": "Manhattan"
+    },
+    {
+        "id": 4,
+        "img": "images/imgGrande/central-park.jpg",
+        "imgGrande": "img/central-park.jpg",
+        "h4": "Central Park",
+        "titulo": "Central Park",
+        "bajada": "Visitamos lugares emblemáticos del mítico parque de la ciudad",
+        "price": 4000,
+        "barrio": "Manhattan"
+    },
+    {
+        "id": 5,
+        "img": "images/imgGrande/wall.jpg",
+        "imgGrande": "images/imgGrande/wall.jpg",
+        "h4": "Wall Street",
+        "titulo": "Wall Street",
+        "bajada": "Visitamos lugares emblemáticos del mítico parque de la ciudad",
+        "price": 5000,
+        "barrio": "Manhattan"
+    },
+    {
+        "id": 6,
+        "img": "images/imgGrande/helicoptero.jpeg",
+        "imgGrande": "images/imgGrande/helicoptero.jpeg",
+        "h4": "Helicóptero",
+        "titulo": "NYC desde el aire",
+        "bajada": "Sobrevolamos los muelles con vista al Skyline",
+        "price": 6000,
+        "barrio": "Manhattan"
+    },
+    {
+        "id": 7,
+        "img": "images/imgGrande/chelsea.jpg",
+        "imgGrande": "images/imgGrande/chelsea.jpg",
+        "h4": "Chelsea Market",
+        "titulo": "Chelsea Market",
+        "bajada": "Visitamos lugares emblemáticos del mítico parque de la ciudad",
+        "price": 7000,
+        "barrio": "Manhattan"
+    },
+    {
+        "id": 8,
+        "img": "images/imgGrande/melo.jpg",
+        "imgGrande": "images/imgGrande/melo.jpg",
+        "h4": "Madison SG",
+        "titulo": "Madison SG",
+        "bajada": "Pasemos en el Madison Square Garden, famoso por el boxeo, basket y otras actividades",
+        "price": 8000,
+        "barrio": "Manhattan"
+    },
+    {
+        "id": 9,
+        "img": "images/imgGrande/wb.jpg",
+        "imgGrande": "images/imgGrande/wb.jpg",
+        "h4": "WMBG Barrio",
+        "titulo": "WMBG Barrio",
+        "bajada": "Paseamos por el barrio de moda de Brooklyn",
+        "price": 1500,
+        "barrio": "Brooklyn"
+    },
+    {
+        "id": 10,
+        "img": "images/imgGrande/coney-island.jpg",
+        "imgGrande": "images/imgGrande/coney-island.jpg",
+        "h4": "Coney Island",
+        "titulo": "Coney Island",
+        "bajada": "Recorrido por el parque y la playa de la ciudad",
+        "price": 2500,
+        "barrio": "Brooklyn"
+    },
+    {
+        "id": 11,
+        "img": "images/imgGrande/jardin.jpg",
+        "imgGrande": "images/imgGrande/jardin.jpg",
+        "h4": "Prospect Park",
+        "titulo": "Prospect Park",
+        "bajada": "Un gran espacio verde en el corazón de Brooklyn",
+        "price": 3500,
+        "barrio": "Brooklyn"
+    },
+    {
+        "id": 12,
+        "img": "images/imgGrande/dumbo.jpg",
+        "imgGrande": "images/imgGrande/dumbo.jpg",
+        "h4": "Dumbo Park",
+        "titulo": "Dumbo Park",
+        "bajada": "Paseo por Dumbo y su vista al skyline de la ciudad",
+        "price": 4500,
+        "barrio": "Brooklyn"
+    },
+    {
+        "id": 13,
+        "img": "images/imgGrande/yankee.jpg",
+        "imgGrande": "images/imgGrande/yankee.jpg",
+        "h4": "Yankee Stadium",
+        "titulo": "Yankee Stadium",
+        "bajada": "Visitaremos el famoso estadio de los New York Yankees",
+        "price": 1000,
+        "barrio": "Bronx"
+    },
+    {
+        "id": 14,
+        "img": "images/imgGrande/bronx-zoo.jpg",
+        "imgGrande": "images/imgGrande/bronx-zoo.jpg",
+        "h4": "Bronx Zoológico",
+        "titulo": "Bronx Zoologico",
+        "bajada": "Conocemos el Zoológico mas grande de la ciudad",
+        "price": 2000,
+        "barrio": "Bronx"
+    },
+    {
+        "id": 15,
+        "img": "images/imgGrande/bronx-graffiti.jpg",
+        "imgGrande": "images/imgGrande/bronx-graffiti.jpg",
+        "h4": "Arte Callejero",
+        "titulo": "Arte Callejero",
+        "bajada": "Circuito por la historia del Graffiti en el Bronx",
+        "price": 3000,
+        "barrio": "Bronx"
+    },
+    {
+        "id": 16,
+        "img": "images/imgGrande/botanical.jpg",
+        "imgGrande": "images/imgGrande/botanical.jpg",
+        "h4": "Jardin Botánico",
+        "titulo": "Jardin Botánico",
+        "bajada": "Conocemos al reconocido mejor jardín botánico del mundo",
+        "price": 4000,
+        "barrio": "Bronx"
+    },
+    {
+        "id": 17,
+        "img": "images/imgGrande/wb.jpg",
+        "imgGrande": "images/imgGrande/wb.jpg",
+        "h4": "Barrio de Astoria",
+        "titulo": "Barrio de Astoria",
+        "bajada": "Paseamos por Astoria y aldedores",
+        "price": 1100,
+        "barrio": "Queens"
+    },
+    {
+        "id": 17,
+        "img": "images/imgGrande/flushing2.jpg",
+        "imgGrande": "images/imgGrande/flushing2.jpg",
+        "h4": "Flushing",
+        "titulo": "Flushing",
+        "bajada": "Paseamos por Astoria y aldedores",
+        "price": 1100,
+        "barrio": "Queens"
+    },
+   
+    {
+        "id": 19,
+        "img": "images/imgGrande/citi-field.jpg",
+        "imgGrande": "images/imgGrande/citi-field.jpg",
+        "h4": "Citi Field",
+        "titulo": "Citi Field",
+        "bajada": "Conocemos el maravilloso hogar de los METS",
+        "price": 3300,
+        "barrio": "Queens"
+    },
+    {
+        "id": 20,
+        "img": "images/imgGrande/queens-museo.jpg",
+        "imgGrande": "images/imgGrande/queens-museo.jpg",
+        "h4": "Museo del Cine",
+        "titulo": "Museo del Cine",
+        "bajada": "La historia del cine tiene su museo, y lo podemos visitar",
+        "price": 4400,
+        "barrio": "Queens"
+    },
+    {
+        "id": 21,
+        "img": "images/imgGrande/richmond-museo.jpg",
+        "imgGrande": "images/imgGrande/richmond-museo.jpg",
+        "h4": "Richmond",
+        "titulo": "Richmond",
+        "bajada": "Un barrio Museo detenido en el tiempo",
+        "price": 4400,
+        "barrio": "Staten Island"
+    },
+    {
+        "id": 22,
+        "img": "images/imgGrande/ferry.jpg",
+        "imgGrande": "images/imgGrande/ferry.jpg",
+        "h4": "Staten Ferry",
+        "titulo": "Staten Ferry",
+        "bajada": "Cruzamos desde Manhattan a la isla",
+        "price": 4400,
+        "barrio": "Staten Island"
+    },
+    {
+        "id": 23,
+        "img": "images/imgGrande/staten-island-park.jpg",
+        "imgGrande": "images/imgGrande/staten-island-park.jpg",
+        "h4": "Staten Park",
+        "titulo": "Staten Park",
+        "bajada": "Staten Island Park y sus alrededores",
+        "price": 4400,
+        "barrio": "Staten Island"
+    },
+    {
+        "id": 24,
+        "img": "images/imgGrande/empire-outlet.png",
+        "imgGrande": "images/imgGrande/empire-outlet.png",
+        "h4": "Empire Outlet",
+        "titulo": "Empire Outlet",
+        "bajada": "Vamos al único outlet en NYC ",
+        "price": 4400,
+        "barrio": "Staten Island"
+    }
+]
+    
+

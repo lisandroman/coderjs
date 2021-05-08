@@ -1,0 +1,47 @@
+.shopping-container {
+    display: flex;
+}
+.shopping-container button {
+    border-radius: .1rem;
+    background: red;
+    padding: 0 3rem;
+    transition: .2s opacity
+}
+.shopping-container button:hover {
+   opacity: .9;
+   cursor: pointer;
+}
+.counter-container{
+    width: 3.3rem;
+    height:3.3rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#add-animation{
+    margin-left: 50px;
+}
+.fa-shopping-bag{
+    font-size: 2.2rem;
+    margin-left: 2px;
+    margin-top: -15px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.counter-container span{
+    user-select: none;
+    position: absolute;
+    background: cyan;
+    opacity: .9;
+    width:1.5rem;
+    height: 1.5rem;
+    font-size: .8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: .2rem;
+    right: -1rem;
+}
