@@ -22,7 +22,7 @@
     {
         "id": 3,
         "img": "images/imgGrande/subway.jpeg",
-        "imgGrande": "iimages/imgGrande/subway.jpeg",
+        "imgGrande": "images/imgGrande/subway.jpeg",
         "h4": "NYC Subway",
         "titulo": "Subway Ride",
         "bajada": "Recorrido por las mejores estaciones de la ciudad",
