@@ -3,6 +3,7 @@ const total = document.querySelector('#total');
 const contenidoDelCarrito = document.querySelector('#carritoContenido tbody');
 const botonVaciar = document.querySelector('#vaciarCarrito');
 let toursInfo = [];
+let cantidadEnCarrito = ""
 
 //Creo los Listeners
 loadEventListeners();
@@ -170,9 +171,10 @@ const actualizarCantidadToursEnCesta = (cantidad) => {
     const c = 'animated-counter';    
     counter.innerText = cantidad;
     cl.remove(c, cl.contains(c));
-    setTimeout(() =>
-        counter.classList.add('animated-counter')
-    ,1)
+    setTimeout(() => counter.classList.add('animated-counter'),3)
+
+    cantidadEnCarrito = cantidad;
+    
 }
 
 function getTourFromStorage(){
@@ -290,24 +292,32 @@ function filtrarPorBarrio(barrio){
 
 // Uso SweetAlert2 para el OK en la compra
 const comprarCarrito = (evento) => {
-    Swal.fire({
-        title: 'Gracias por tu compra!',
-        text: "El costo es a cargo de Coderhouse",
-        icon: 'success',
-        showCancelButton: true,
-        confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
-        confirmButtonText: 'Confirmar'
-    }).then((result) => {                       
-        if (result.isConfirmed) {       // Espero la confirmación para luego limpiar el carrito
-            Swal.fire(
-            'Comprado!',
-            'Esperamos volver a verte pronto',
-            'success'
-            )
-            limpiarCarrito();  // Llamo a funcion para limpiar el contenido del carrito
-        };
-    });
+    if (cantidadEnCarrito != 0) {
+        Swal.fire({
+            title: 'Gracias por tu compra!',
+            text: "El costo es a cargo de Coderhouse",
+            icon: 'success',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Confirmar'
+        }).then((result) => {                       
+            if (result.isConfirmed) {       // Espero la confirmación para luego limpiar el carrito
+                Swal.fire(
+                'Comprado!',
+                'Esperamos volver a verte pronto',
+                'success'
+                )
+                limpiarCarrito();  // Llamo a funcion para limpiar el contenido del carrito
+            };
+        });
+    } else {
+        Swal.fire({
+            title: 'ERROR!',
+            text: "El carrito está vacío",
+            icon: 'error',
+        })
+    }
 };
 
 
