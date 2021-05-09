@@ -22,7 +22,7 @@
     {
         "id": 3,
         "img": "images/imgGrande/subway.jpeg",
-        "imgGrande": "img/subway.jpeg",
+        "imgGrande": "iimages/imgGrande/subway.jpeg",
         "h4": "NYC Subway",
         "titulo": "Subway Ride",
         "bajada": "Recorrido por las mejores estaciones de la ciudad",
@@ -32,7 +32,7 @@
     {
         "id": 4,
         "img": "images/imgGrande/central-park.jpg",
-        "imgGrande": "img/central-park.jpg",
+        "imgGrande": "images/imgGrande/central-park.jpg",
         "h4": "Central Park",
         "titulo": "Central Park",
         "bajada": "Visitamos lugares emblemáticos del mítico parque de la ciudad",
